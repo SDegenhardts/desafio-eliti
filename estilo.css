@@ -3,11 +3,11 @@
 }
 
 body {
-    background-color: green;
+    background-color: #bfddf3;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: medium;
-    background-image: url(https://gifs.eco.br/wp-content/uploads/2022/11/gifs-de-natureza-0.gif);
-    background-repeat: repeat;
-    background-size: 685px;
+    background-image: url(https://static.vecteezy.com/ti/fotos-gratis/p2/4881582-idilica-tropical-praia-paisagem-para-fundo-ou-papel-de-parede-design-de-turismo-para-verao-ferias-paisagem-feriado-destino-conceito-exotico-ilha-cena-relaxante-vista-paraiso-a-beira-mar-lagoa-foto.jpg);
+    background-size: 1600px;
+    background-repeat: no-repeat;
     text-align: center;
 }

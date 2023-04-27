@@ -1,6 +1,9 @@
 *{
     margin: 0;
 }
+header{
+    background-color: rgb(197, 3, 245);
+}
 body {
     background-color: #bfddf3;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -22,6 +25,12 @@ body {
 .footer{
     background-color: rgba(0, 0, 0, 0.575);
     backdrop-filter: blur(1px);
+    border-top: 1px solid #333;
+  bottom: 0;
+  left: 0;
+  height: 65px;
+  position: fixed;
+  width: 100%;
 }
 .coluna{
     display: flex;

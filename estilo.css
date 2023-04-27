@@ -1,9 +1,20 @@
-*{
+* {
     margin: 0;
 }
+
 header{
-    background-color: rgb(197, 3, 245);
+    background-color: rgba(0, 0, 0, 0.575);
+    backdrop-filter: blur(1px);
+    display: flex;
+    gap: 39%;
+    padding: 1em;
+    place-items: center;
+    margin-bottom: 2em;
 }
+header img{
+    width: 55px;
+}
+
 body {
     background-color: #bfddf3;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -14,26 +25,27 @@ body {
     background-attachment: fixed;
     text-align: center;
 }
+
 .imagens {
     display: flex;
     justify-content: space-evenly;
 }
+
 .imagens img {
     width: 20%;
     box-shadow: 0 0 3px 3px rgba(44, 44, 44, 0.507);
+    border-radius: 12px;
 }
-.footer{
+
+.footer {
     background-color: rgba(0, 0, 0, 0.575);
     backdrop-filter: blur(1px);
-    border-top: 1px solid #333;
-  bottom: 0;
-  left: 0;
-  height: 65px;
-  position: fixed;
-  width: 100%;
+    margin-top: 3em;
+
 }
-.coluna{
+
+.coluna {
     display: flex;
     justify-content: center;
-    gap: 45px;
+    gap: 25px;
 }

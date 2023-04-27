@@ -10,6 +10,7 @@ header{
     padding: 1em;
     place-items: center;
     margin-bottom: 2em;
+    box-sizing: border-box;
 }
 header img{
     width: 55px;
@@ -20,10 +21,11 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: medium;
     background-image: url(https://static.vecteezy.com/ti/fotos-gratis/p2/4881582-idilica-tropical-praia-paisagem-para-fundo-ou-papel-de-parede-design-de-turismo-para-verao-ferias-paisagem-feriado-destino-conceito-exotico-ilha-cena-relaxante-vista-paraiso-a-beira-mar-lagoa-foto.jpg);
-    background-size: 1600px;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     text-align: center;
+    backdrop-filter: blur(3px);
 }
 
 .imagens {
